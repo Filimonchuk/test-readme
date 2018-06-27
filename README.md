@@ -37,12 +37,10 @@ Installation
 - Create the entity as CarouselItem data object with attributes Title/Description.
 - Create the entity as CarouselItemImage data object with Generalization System.Image.
 - Create the Association as CarouselItem_CarouselItemImage [1-1].
-
-![entity](entity_create.png)
+![entity](../master/assets/entity_create.png)
 
 - Create a Microflow that will return the list of Carousel data objects.
-
-![mf](mf_create.png)
+![mf](../master/assets/mf_create.png)
 
 - Configure the widget within the widget options. 
 
