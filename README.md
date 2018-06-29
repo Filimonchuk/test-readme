@@ -2,13 +2,13 @@
 
 This widget gives you all you need to create a carousel of Bootstrap style using Native JavaScript without jQuery. 
 
-[Bootstrap Example](http://thednp.github.io/bootstrap.native/)
+[http://thednp.github.io/bootstrap.native](http://thednp.github.io/bootstrap.native/)
 /Components/Carousel
 
 Typical usage
 ----
 
-This widget gives the user the ability to Display a data of carousel objects with their attached background image. 
+This widget gives the user the ability to display a data of carousel objects with their attached background image. 
 
  
 Features
@@ -18,15 +18,16 @@ Features
 - Automatic looping of items.
 - Pause the carousel transition on mouse hover and touchdown. 
 - Ability to navigate the carousel with left and right keyboard arrows. 
-- Ability to set speed of the automatic slide interval (default value 5000 ms).
+- Ability to set speed of the automatic slide interval.
 - Ability to fade effect between the items.
 - Responsive & setting with default bootstrap carousel CSS.
+- Ability to customization with custom CSS styles.
 
 
 Limitations
 ---
 
-- For correct operation, the image must be attached to each element and have the same size.
+- For correct operation, the images must be attached to each item and have the same size.
  
 
 Installation 
@@ -41,6 +42,7 @@ Installation
 
 - Create a Microflow that will return the list of Carousel data objects.
 ![mf](../master/assets/mf_create.png)
+<iframe width='100%' height='491px' frameborder='0' src='https://modelshare.mendix.com/models/93c083d9-7cf9-4a83-b018-3bcf332d7a81/microflow-image?embed=true' allowfullscreen></iframe>
 
 - Configure the widget within the widget options. 
 
@@ -54,7 +56,7 @@ Configuration
 - Show Controls - The toggle to show / hide the next / previous carousel item controls (arrows).
 - Show Dots - The toggle to show / hide the icons of indicates which carousel item is currently shown.
 - Auto Scroll - The toggle to enable / disable autoscroll functionality.
-- Scroll Speed - Set the speed of the automatic slide interval (milliseconds). 
+- Scroll Speed - Set the speed of the automatic slide interval (milliseconds, default value 5000). 
 - Fade Effect - The toggle to enable / disable fade effect between the items. 
 - Carousel Id - Set the unique value of ID, if you use more then one carousel on the page.
 - Carousel Class - Set the class attribuite for CSS customization (optional). 
