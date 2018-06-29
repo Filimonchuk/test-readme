@@ -43,6 +43,8 @@ Installation
 - Create a Microflow that will return the list of Carousel data objects.
 ![mf](../master/assets/mf_create.png)
 
+<iframe width='100%' height='491px' frameborder='0' src='https://modelshare.mendix.com/models/93c083d9-7cf9-4a83-b018-3bcf332d7a81/microflow-image?embed=true' allowfullscreen></iframe>
+
 
 - Configure the widget within the widget options. 
 
